@@ -28,9 +28,10 @@ import {toLatLngBounds} from './LatLngBounds';
  */
 
 export function LatLng(lat, lng, alt) {
-	if (isNaN(lat) || isNaN(lng)) {
+	
+	/*if (isNaN(lat) || isNaN(lng)) {
 		throw new Error('Invalid LatLng object: (' + lat + ', ' + lng + ')');
-	}
+	}*/
 
 	// @property lat: Number
 	// Latitude in degrees
